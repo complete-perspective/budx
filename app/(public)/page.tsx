@@ -12,52 +12,16 @@ export default async function Home() {
         </div>
       </main>
 
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="/api/graphql"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Read Docs
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="/api/graphql"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Explore API
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.github.com/colpitts-dev/hyperlocal"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          View Source ➝
-        </a>
+      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center md:justify-betweenw-full">
+        <h2 className="text-md font-sans text-gray-500 md:min-w-[200px] mr-4">
+          BudX[labs]
+        </h2>
+        <h2 className="text-md font-lobster text-gray-500 whitespace-nowrap mr-4">
+          SixStar Industries
+        </h2>
+        <h2 className="text-md font-danfo text-gray-400 whitespace-nowrap md:min-w-[200px] md:text-right">
+          cambridge seed co
+        </h2>
       </footer>
     </section>
   );
